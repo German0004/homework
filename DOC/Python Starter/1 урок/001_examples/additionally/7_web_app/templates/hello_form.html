@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="col-12">
+            <h1 class="text-white text-center">Python Starter</h1>
+        </div>
+    </div>
+</nav>
+
+{% if name %}
+<div class="container">
+    <div class="row">
+        <div class="col-12 py-5">
+            <h2 class="text-center p-5 bg-light">Привет, {{ name }}!</h2>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="container">
+    <div class="row justify-content-center py-5">
+        <div class="col-lg-5">
+            <form action="/hello/" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                    <div id="emailHelp" class="form-text">Введите свое имя здесь</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="py-4 bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                Powered by Python\Flask and Bootstrap 5
+            </div>
+            <div class="col-6 text-right">
+                CyberBionic Systematics
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
