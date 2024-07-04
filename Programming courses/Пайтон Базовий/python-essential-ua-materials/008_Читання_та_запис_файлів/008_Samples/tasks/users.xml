@@ -1,0 +1,9 @@
+<data>
+    <users>
+        <user age="31" gender="male" name="Arthur" />
+        <user age="84" gender="female" name="Kate" />
+        <user age="64" gender="female" name="Alice" />
+        <user age="30" gender="male" name="Mike" />
+        <user age="56" gender="male" name="John" />
+    </users>
+</data>

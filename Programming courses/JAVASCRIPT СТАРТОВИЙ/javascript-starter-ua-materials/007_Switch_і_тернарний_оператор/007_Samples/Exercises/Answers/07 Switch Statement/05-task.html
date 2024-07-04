@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+
+<body>
+    <pre>
+        Завдання:
+        Змініть умовну конструкцію на тернарний оператор, де це можливо
+    </pre>
+    <script>
+        let age = +prompt("Введіть ваш вік");
+        let technology = prompt("Введіть 1 чи 2. 1 - JavaScript. 2 - C#");
+        let expirience = prompt("Введіть досвід работи у роках.");
+
+        let adult, specialization, position;
+
+        adult = age > 18 ? "повнолітній" : "неповнолітній";
+        specialization = technology == 1 ? "Frontend" : "Backend";
+
+        if (expirience == 0) {
+            position = "Без досвіду работи";
+        }
+        else if (expirience > 0 && expirience < 1.5) {
+            position = "Junior";
+        }
+        else if (expirience > 1.5 && expirience < 3) {
+            position = "Middle";
+        }
+        else if (expirience > 3) {
+            position = "Senior";
+        }
+        else {
+            position = "error";
+        }
+
+        let result = `Вік: ${adult}\r\nСпеціалізация: ${specialization}\r\nПозиція: ${position}`;
+
+        alert(result);
+    </script>
+</body>
+
+</html>

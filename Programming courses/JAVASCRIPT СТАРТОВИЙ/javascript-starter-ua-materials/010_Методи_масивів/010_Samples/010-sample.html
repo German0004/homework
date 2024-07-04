@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+
+<body>
+    <script>
+        let emailString = prompt("Введите e-mail адреса через запятую");
+        let emails = emailString.split(", ");
+
+        // видаляємо пошту "no-reply@itvdn.com", якщо така є у списку
+        let noreplyIndex = emails.indexOf("no-reply@itvdn.com");
+        if (noreplyIndex != -1) {
+            emails.splice(noreplyIndex, 1);
+        }
+
+        // якщо пошти "admin@itvdn.com" немає у масиві - додаємо її
+        if (emails.indexOf("admin@itvdn.com") == -1) {
+            emails.push("admin@itvdn.com");
+        }
+
+        for (let email of emails) {
+            console.log(`Надсилання листа на адресу ${email}`);
+        }
+
+        alert(`Надіслано ${emails.length} листів`);
+
+    </script>
+</body>
+
+</html>

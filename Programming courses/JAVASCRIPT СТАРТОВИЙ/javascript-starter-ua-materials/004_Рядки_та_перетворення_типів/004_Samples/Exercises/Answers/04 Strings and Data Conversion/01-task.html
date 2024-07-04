@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+
+<body>
+    <pre>
+        Завдання:
+        Виконайте завдання відповідно коментарів у коді.
+    </pre>
+
+    <script>
+        let name = "Іван";
+        let age = 25;
+        let company = "ITVDN";
+        let position = "Frontend Developer";
+
+        // ініціалізуйте змінну message
+        // значення повинно бути створене за домпомогою шаблонного рядка та за допомогою конкотинації
+        // рядкове значення має бути створене на основі значення змінних name, age, company, position
+        // Значення має бути складене по шаблону:
+        // Привіт, мене звати Іван. Мені 25 років. Я працюю на посаді Frontend Developer в компанії ITVDN.
+
+        let message = "Привет, меня зовут " + name + ". Мне " + age + " лет. Я работаю на должности "
+            + position + " в компании " + company + ".";
+
+        message = `Привет, меня зовут ${name}. Мне ${age} лет. Я работаю на должности ${position} в компании ${company}.`
+        console.log(message);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+
+<body>
+    <pre>
+        Завдання:
+        Дано массив. Створіть на основі значень цього массиву два нових массиви. В один массив помістіть всі парні значення, а у
+        другий всі непарні.
+        Виведіть на екран значення, які війшли в перший массив та у другий массив.
+    </pre>
+    <script>
+        let values = [10, 20, 5, 7, 11, 8, 125, 4, 8, 3, 23];
+        let oddValues = [];
+        let evenValues = [];
+        let oddValuesPosition = 0;
+        let evenValuesPosition = 0;
+
+        for (let value of values) {
+            if (value % 2 == 0) {
+                evenValues[evenValuesPosition] = value;
+                evenValuesPosition++;
+            }
+            else {
+                oddValues[oddValuesPosition] = value;
+                oddValuesPosition++;
+            }
+        }
+
+        console.log("Непарне значення");
+        for (let oddVal of oddValues) {
+            console.log(oddVal);
+        }
+
+        console.log("Парне значення");
+        for (let evenVal of evenValues) {
+            console.log(evenVal);
+        }
+
+    </script>
+</body>
+
+</html>

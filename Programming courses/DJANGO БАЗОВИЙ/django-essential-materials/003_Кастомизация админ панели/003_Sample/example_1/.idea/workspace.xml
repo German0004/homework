@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dda505a3-4e44-475c-8e1c-f529a589a0fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JQLSearcherProjectManager">
+    <selected>-1</selected>
+    <searchers />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="ProjectId" id="1Xd4qV1M8UOwrfwZrK5dsaFGa5q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="example_1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="example_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="example_1.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dda505a3-4e44-475c-8e1c-f529a589a0fa" name="Default Changelist" comment="" />
+      <created>1581362828724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581362828724</updated>
+      <workItem from="1581362919032" duration="146000" />
+      <workItem from="1581363107743" duration="5224000" />
+      <workItem from="1581447952161" duration="81000" />
+      <workItem from="1581448059109" duration="1552000" />
+      <workItem from="1581543426001" duration="133000" />
+      <workItem from="1581543593976" duration="653000" />
+      <workItem from="1581626326800" duration="4958000" />
+      <workItem from="1581963097410" duration="4073000" />
+      <workItem from="1581969806013" duration="124000" />
+      <workItem from="1582049507978" duration="2676000" />
+      <workItem from="1582053792316" duration="7196000" />
+      <workItem from="1582133475186" duration="961000" />
+      <workItem from="1582228957161" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="195" key="#Notifications" timestamp="1581363127845">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="516" y="195" key="#Notifications/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1581363127845" />
+    <state x="616" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581544255562">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="616" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1581544255562" />
+    <state x="704" y="335" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582130622718">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="704" y="335" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582130622718" />
+    <state x="754" y="300" key="FileChooserDialogImpl" timestamp="1582229096989">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="754" y="300" key="FileChooserDialogImpl/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582229096989" />
+    <state width="996" height="567" key="GridCell.Tab.0.bottom" timestamp="1582134185758">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="996" height="567" key="GridCell.Tab.0.bottom/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582134185758" />
+    <state width="996" height="567" key="GridCell.Tab.0.center" timestamp="1582134185758">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="996" height="567" key="GridCell.Tab.0.center/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582134185758" />
+    <state width="996" height="567" key="GridCell.Tab.0.left" timestamp="1582134185758">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="996" height="567" key="GridCell.Tab.0.left/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582134185758" />
+    <state width="996" height="567" key="GridCell.Tab.0.right" timestamp="1582134185758">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="996" height="567" key="GridCell.Tab.0.right/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582134185758" />
+    <state x="504" y="293" key="IDE.errors.dialog" timestamp="1582131491445">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="504" y="293" key="IDE.errors.dialog/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582131491445" />
+    <state x="749" y="142" key="SettingsEditor" timestamp="1582229042821">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="749" y="142" key="SettingsEditor/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1582229042821" />
+    <state x="722" y="430" key="cloudConfig.PluginsDialog" timestamp="1581543519097">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="722" y="430" key="cloudConfig.PluginsDialog/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1581543519097" />
+    <state x="722" y="430" key="cloudConfig.SelfSettingsDialog" timestamp="1581543700658">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="722" y="430" key="cloudConfig.SelfSettingsDialog/2048.370.1600.860/0.0.2048.1240@0.0.2048.1240" timestamp="1581543700658" />
+  </component>
+</project>
