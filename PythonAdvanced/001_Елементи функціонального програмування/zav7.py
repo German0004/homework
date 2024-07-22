@@ -25,7 +25,7 @@ multiply_by_3 = curried_normal_function(3)
 result1 = multiply_by_3(4)
 
 # Можна одразу застосувати обидва аргументи
-result2 = curried_normal_function(3)(4)
+result2 = curried_normal_function(3)(5)
 
 print(f"Результат карированої функції (часткове застосування): {result1}")
 print(f"Результат карированої функції (одразу два аргументи): {result2}")

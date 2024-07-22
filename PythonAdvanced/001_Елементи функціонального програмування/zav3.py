@@ -34,7 +34,7 @@ def fibonacci_with_lru_cache_16(n):
     return fibonacci_with_lru_cache_16(n - 1) + fibonacci_with_lru_cache_16(n - 2)
 
 print("Без кешу:")
-for i in range(25):
+for i in range(24):
     print(fibonacci_no_cache(i), end=" ")
 print("\n")
 
