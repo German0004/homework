@@ -10,6 +10,8 @@ class Describer_book:
         self.year = year
         self.genre = genre
         print(self.author, self.title, self.year, self.genre)
+
+
 book1 = Describer_book()
 book1.describer("Jack London:", "White Fang,", "1906,", "Adventures")
 book2 = Describer_book()
