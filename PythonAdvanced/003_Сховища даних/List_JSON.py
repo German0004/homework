@@ -1,11 +1,13 @@
+# Створіть прості словники та конвертуйте їх у JSON. Збережіть JSON у файлі та спробуйте завантажити дані з файлу.
+
 import json
 
 # Створення простих словників
 data = {
-    "name": "John Doe",
-    "age": 30,
-    "city": "New York",
-    "is_student": False,
+    "name": "Evgen Dudin",
+    "age": 42,
+    "city": "Lutsk",
+    "is_student": True,
     "courses": ["Math", "Science", "English"]
 }
 

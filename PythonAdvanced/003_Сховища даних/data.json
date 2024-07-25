@@ -1,8 +1,8 @@
 {
-    "name": "John Doe",
-    "age": 30,
-    "city": "New York",
-    "is_student": false,
+    "name": "Evgen Dudin",
+    "age": 42,
+    "city": "Lutsk",
+    "is_student": true,
     "courses": [
         "Math",
         "Science",

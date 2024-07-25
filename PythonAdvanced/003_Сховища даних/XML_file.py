@@ -1,2 +1,30 @@
-# Створіть XML-файл із вкладеними елементами та скористайтеся мовою пошуку XPATH. Спробуйте здійснити пошук вмісту за створеним
-# документом XML, ускладнюючи свої запити та додаючи нові елементи, якщо буде потрібно.
+# РЎС‚РІРѕСЂС–С‚СЊ XML-С„Р°Р№Р» С–Р· РІРєР»Р°РґРµРЅРёРјРё РµР»РµРјРµРЅС‚Р°РјРё С‚Р° СЃРєРѕСЂРёСЃС‚Р°Р№С‚РµСЃСЏ РјРѕРІРѕСЋ РїРѕС€СѓРєСѓ XPATH. РЎРїСЂРѕР±СѓР№С‚Рµ
+# Р·РґС–Р№СЃРЅРёС‚Рё РїРѕС€СѓРє РІРјС–СЃС‚Сѓ Р·Р° СЃС‚РІРѕСЂРµРЅРёРј РґРѕРєСѓРјРµРЅС‚РѕРј XML, СѓСЃРєР»Р°РґРЅСЋСЋС‡Рё СЃРІРѕС— Р·Р°РїРёС‚Рё С‚Р° РґРѕРґР°СЋС‡Рё РЅРѕРІС– РµР»РµРјРµРЅС‚Рё, СЏРєС‰Рѕ Р±СѓРґРµ РїРѕС‚СЂС–Р±РЅРѕ.
+import xml.etree.ElementTree as ET
+
+# РЎС‚РІРѕСЂСЋС”РјРѕ РєРѕСЂРµРЅРµРІРёР№ РµР»РµРјРµРЅС‚
+root = ET.Element("library")
+
+# РЎС‚РІРѕСЂСЋС”РјРѕ РїС–РґРґРµСЂРµРІРѕ РґР»СЏ РєРЅРёРі
+books = ET.SubElement(root, "books")
+
+# Р”РѕРґР°С”РјРѕ РєРЅРёРіРё
+book1 = ET.SubElement(books, "book", id="1")
+title1 = ET.SubElement(book1, "title")
+title1.text = "The Catcher in the Rye"
+author1 = ET.SubElement(book1, "author")
+author1.text = "J.D. Salinger"
+year1 = ET.SubElement(book1, "year")
+year1.text = "1951"
+
+book2 = ET.SubElement(books, "book", id="2")
+title2 = ET.SubElement(book2, "title")
+title2.text = "To Kill a Mockingbird"
+author2 = ET.SubElement(book2, "author")
+author2.text = "Harper Lee"
+year2 = ET.SubElement(book2, "year")
+year2.text = "1960"
+
+# РџРµСЂРµС‚РІРѕСЂСЋС”РјРѕ РґРµСЂРµРІРѕ РІ XML-СЃС‚СЂРѕРєСѓ
+tree = ET.ElementTree(root)
+tree.write("library.xml")

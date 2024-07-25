@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials>
+    <material>
+        <id>1</id>
+        <weight>12.34</weight>
+        <height>56.78</height>
+        <additional_characteristics>
+            <characteristic>
+                <name>Color</name>
+                <value>Red</value>
+            </characteristic>
+            <characteristic>
+                <name>Density</name>
+                <value>1.5 g/cm3</value>
+            </characteristic>
+        </additional_characteristics>
+    </material>
+    <material>
+        <id>2</id>
+        <weight>23.45</weight>
+        <height>67.89</height>
+        <additional_characteristics>
+            <characteristic>
+                <name>Color</name>
+                <value>Blue</value>
+            </characteristic>
+            <characteristic>
+                <name>Density</name>
+                <value>2.0 g/cm3</value>
+            </characteristic>
+        </additional_characteristics>
+    </material>
+</materials>

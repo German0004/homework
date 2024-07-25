@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "weight": 12.34,
+        "height": 56.78,
+        "additional_characteristics": [
+            [
+                "Color",
+                "Red"
+            ],
+            [
+                "Density",
+                "1.5 g/cm3"
+            ]
+        ]
+    }
+]
