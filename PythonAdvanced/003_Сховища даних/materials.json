@@ -13,5 +13,20 @@
                 "1.5 g/cm3"
             ]
         ]
+    },
+    {
+        "id": 2,
+        "weight": 23.45,
+        "height": 67.89,
+        "additional_characteristics": [
+            [
+                "Color",
+                "Blue"
+            ],
+            [
+                "Density",
+                "1.8 g/cm3"
+            ]
+        ]
     }
 ]
