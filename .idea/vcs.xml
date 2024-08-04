@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonAdvanced/003_Сховища даних/myenv/docker-and-python-2024-08-02-gr-1604" vcs="Git" />
   </component>
 </project>

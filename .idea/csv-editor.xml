@@ -3,6 +3,27 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\DOC\Python Advanced українською\003_Сховища даних\003_Сховища даних\003_examples\_csv\data\example1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DOC\Python Advanced українською\003_Сховища даних\003_Сховища даних\003_examples\_csv\data\output.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DOC\Python Advanced українською\003_Сховища даних\003_Сховища даних\003_examples\_csv\data\undefined_dialect.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\PythonAdvanced\003_Сховища даних\data.csv">
           <value>
             <Attribute>
